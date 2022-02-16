@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.9">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p25" frameDuration="100/2500s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <effect id="r2" name="Custom" uid=".../Titles.localized/Build In:Out.localized/Custom.localized/Custom.moti"/>
+        <effect id="r3" name="Custom" uid=".../Generators.localized/Solids.localized/Custom.localized/Custom.motn"/>
+	<effect id="r4" name="Basic Title" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti"/>
+    </resources>
+    <library>
+        <event name="transcribed">
+            <project name="Titled Project">
+                <sequence duration="304400/2500s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <title name="Custom" offset="0s" ref="r2" duration="304400/2500s" start="0s" role="video.video-1">
+			   <text/>
+                            <video name="Custom" lane="2" offset="0s" ref="r3" duration="7700/2500s" start="3600s" enabled="0">
+                                <adjust-transform position="-28.287 108.398" scale="1.66 1.66"/>
+                                <adjust-blend amount="0.8104"/>
+                            </video>
+
+
+                        </title>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+
+    </library>
+</fcpxml>
