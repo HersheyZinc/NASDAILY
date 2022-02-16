@@ -1,3 +1,0 @@
-Max length: 600
-Debug : True
-Delay : 0.1
