@@ -1,1 +1,3 @@
-Lost the main.py which handles the user interface and calls the handlers
+GUI_handler is the main application that runs the UI and calls the other handlers
+
+This is a program used for managing subtitles, Final Cut Pro and MP4 files
